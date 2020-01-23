@@ -1,0 +1,188 @@
+/* Body */
+body {
+  background-image: url(https://mykeytorussian.com/wp-content/uploads/2019/04/sea-2259066_1280.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  font-family: tahoma;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/************ Globals ************/
+
+/* Container */
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Margins */
+.in-b {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+  outline: none;
+  background: #427cf49c;
+  border: 0;
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+/* Text */
+.text-muted {
+  opacity: 0.7;
+}
+
+/************ //Globals ************/
+
+/*  Register */
+.register-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 70%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+/*  Register - banner, signup */
+.register-banner,
+.register-signup {
+  flex: 1 1 50%;
+  padding: 10px 15px;
+}
+.register-banner {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #427cf49c;
+  border-top-left-radius: 200px;
+}
+
+/* Register - banner - overview */
+.banner-overview {
+  color: black;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Form */
+.form {
+  z-index: 15;
+  position: relative;
+  background: #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Form - header */
+.form-header {
+  margin: 0 0 10px;
+}
+
+/* Form - header - title */
+.form-header .form-title {
+  color: #427cf49c;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*  Form - group */
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 10px;
+  flex-direction: column;
+}
+
+/* Form - group - label */
+.form-group label {
+  display: block;
+  margin: 0 0 3px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Form - group - input */
+.form-group input {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+/* Form - group - remember  */
+.form-group .form-remember {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  display: inline;
+}
+
+/* Form - group - remember - input[type:checkbox]  */
+.form-group .form-remember input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin: 0 10px 0 0;
+}
+
+/* Form - group - recovery */
+.form-group .form-recovery {
+  color: #4285f4;
+  font-size: 12px;
+  text-decoration: none;
+  float: right;
+}
+
+/* Form - help */
+.email-help {
+  font-size: x-small;
+}
+
+/* Form inline */
+.form-inline {
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .register-form {
+    flex-direction: column-reverse;
+  }
+}

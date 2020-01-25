@@ -1,0 +1,39 @@
+/* Input effect */
+.effect-slide {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #000;
+}
+
+/* input border span effec */
+.effect-slide ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #3399ff;
+  transition: 0.4s;
+}
+
+/* input:focus border span effec */
+.effect-slide:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+/* Button effect */
+.btn-hover {
+  transition: all 0.5s;
+  border: 1px solid #3399ff;
+  background-color: #fff;
+  color: #3399ff;
+}
+
+/* Button:hover effect */
+.btn-hover:hover {
+  background-color: #3399ff;
+  border-radius: 25px;
+  color: #fff;
+}

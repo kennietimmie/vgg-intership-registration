@@ -5,20 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <meta name="keywords" content="develop, website, unique website, web, webtool"/>
-    <meta name="author" content="Kehinde Sholadoye, kehinde.bridgewateracademy@gmail.com">
-<meta name="designer" content="Kehinde Sholadoye">
-    <meta name="description" content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!">
-    <meta name="twitter:description"  content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!">
-    <meta property="og:description"  content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!">
+    <meta
+      name="keywords"
+      content="develop, website, unique website, web, webtool"
+    />
+    <meta
+      name="author"
+      content="Kehinde Sholadoye, kehinde.bridgewateracademy@gmail.com"
+    />
+    <meta name="designer" content="Kehinde Sholadoye" />
+    <meta
+      name="description"
+      content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!"
+    />
+    <meta
+      name="twitter:description"
+      content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!"
+    />
+    <meta
+      property="og:description"
+      content="Develop a unique website identity for your business with our customized web development tools. Use our online webtool and webrobot to build your website now!"
+    />
     <link href="src/styles.css" type="text/css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/ico" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" rel="favicon" />
-    
+    <link href="src/animate.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico"
+      rel="favicon"
+    />
+
     <title>App - Register</title>
   </head>
   <body>
     <div class="container">
-      <main class="register-form">
+      <main class="register-form color-transit">
         <!--  Registration Banner -->
         <div class="register-banner">
           <div class="banner-overview">
@@ -52,7 +73,7 @@
               <!-- Form header -->
               <div class="form-header">
                 <!-- Form title -->
-                <h1 class="form-title">Register</h1>
+                <h1 class="form-title">VGG - Register</h1>
                 <!-- //Form title -->
               </div>
               <!-- //Form header -->
@@ -62,14 +83,26 @@
                 <!-- First name -->
                 <div class="form-group">
                   <label for="first-name">First name</label>
-                  <input type="text" name="first-name" />
+                  <input
+                    type="text"
+                    name="first-name"
+                    class="effect-slide"
+                    placeholder="Enter your first name"
+                  />
+                  <span class="focus-border"></span>
                 </div>
                 <!-- /First name -->
 
                 <!-- Last name -->
                 <div class="form-group">
                   <label for="last-name">Last name</label>
-                  <input type="text" name="last-name" />
+                  <input
+                    class="effect-slide"
+                    type="text"
+                    name="last-name"
+                    placeholder="Enter your last name"
+                  />
+                  <span class="focus-border"></span>
                 </div>
                 <!-- Last name -->
 
@@ -77,22 +110,32 @@
                 <div class="form-group">
                   <label for="email">Email address</label>
                   <input
+                    class="effect-slide"
                     type="email"
                     id="email"
-                    aria-describedby="email-helper"
                     placeholder="Enter your email"
                   />
-                  <small id="email-helper" class="email-help text-muted"
-                    >We'll never share your email with anyone else.</small
-                  >
+                  <span class="focus-border"></span>
                 </div>
                 <div class="form-group">
-                  <label for="password">Password</label>
-                  <input type="password" name="password" />
+                  <label for="last-name">Password</label>
+                  <input
+                    class="effect-slide"
+                    type="password"
+                    name="last-name"
+                    placeholder="Enter your password"
+                  />
+                  <span class="focus-border"></span>
                 </div>
                 <div class="form-group">
-                  <label for="c-password">Confirm password</label>
-                  <input type="password" name="c-password" />
+                  <label for="last-name">Confirm password</label>
+                  <input
+                    class="effect-slide"
+                    type="password"
+                    name="last-name"
+                    placeholder="Confirm your password"
+                  />
+                  <span class="focus-border"></span>
                 </div>
                 <div class="form-group form-inline">
                   <label class="form-remember">
@@ -100,7 +143,7 @@
                   ><a class="form-recovery" href="#">Forgot Password?</a>
                 </div>
                 <div class="form-group">
-                  <button class="btn" type="submit">Log In</button>
+                  <button class="btn btn-hover" type="submit">Log In</button>
                 </div>
               </div>
               <!-- /Form content -->

@@ -88,6 +88,7 @@
                     name="first-name"
                     class="effect-slide"
                     placeholder="Enter your first name"
+                    required
                   />
                   <span class="focus-border"></span>
                 </div>
@@ -101,6 +102,7 @@
                     type="text"
                     name="last-name"
                     placeholder="Enter your last name"
+                    required
                   />
                   <span class="focus-border"></span>
                 </div>
@@ -113,27 +115,37 @@
                     class="effect-slide"
                     type="email"
                     id="email"
+                    name="email"
                     placeholder="Enter your email"
+                    required
                   />
                   <span class="focus-border"></span>
                 </div>
                 <div class="form-group">
-                  <label for="last-name">Password</label>
+                  <label for="password">Password</label>
                   <input
                     class="effect-slide"
                     type="password"
-                    name="last-name"
+                    name="password"
+                    id="password"
                     placeholder="Enter your password"
+                    required
+                    minlength="8"
+                    maxlength="16"
                   />
                   <span class="focus-border"></span>
                 </div>
                 <div class="form-group">
-                  <label for="last-name">Confirm password</label>
+                  <label for="cpassword">Confirm password</label>
                   <input
                     class="effect-slide"
                     type="password"
-                    name="last-name"
+                    name="cpassword"
+                    id="cpassword"
                     placeholder="Confirm your password"
+                    required
+                    minlength="8"
+                    maxlength="16"
                   />
                   <span class="focus-border"></span>
                 </div>
@@ -153,5 +165,6 @@
         <!-- //Registration Sign up -->
       </main>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
